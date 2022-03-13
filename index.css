@@ -1,0 +1,93 @@
+html {
+    background-color: #F3E2E1;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    text-align: right;
+    background-color:#F3E2E1;
+}
+
+#logo {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 30px;
+    border: 5px #c0cccc solid;
+    padding: 10px;
+    font-family: 'Roboto Serif', 'Courier New', serif;
+    font-family: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #d57276;
+}
+
+
+
+header {
+    display: inline-block;
+}
+
+h1 {
+    color: #d57276;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Roboto Serif', 'Courier New', serif;
+    font-weight: bold;
+    display: block;
+    background-image: url("./Images/IMG_6661.jpeg");
+    opacity: 0.7;
+    width: 100%;
+    height: 500;
+}
+
+h2, h3 {
+    color: #65b2c6;
+    font-size: 25px;
+    font-family: 'Roboto Serif', 'Courier New', serif;
+    font-weight: normal;
+    text-align: left;
+    margin: 20px;
+}
+
+
+figure, img {
+    width: 250px;
+    height: 300px;
+    text-align: justify;
+    float: right;
+}
+
+figcaption {
+    color: #d73d6c;
+    font-size: 18px;
+    font-family: 'Roboto Serif', 'Courier New', serif;
+}
+
+main {
+    font-family: 'Roboto Serif', 'Courier New', serif;
+    font-size: 23px;
+    display: block;
+    color: #c0cccc;
+    margin: 30px;
+    padding: 30px;
+}
+
+
+footer {
+    text-align: center;
+}
+
+.fa-brands, fa-instagram {
+    font-size: 30px;
+    color: #D87381;
+    margin-right: 10px;
+}
